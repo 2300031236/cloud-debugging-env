@@ -1,0 +1,9 @@
+name: cloud-debug-env
+description: AI environment for cloud system debugging
+version: 1.0
+
+entry_point: env.environment:CloudEnv
+
+observation_model: env.models:Observation
+action_model: env.models:Action
+reward_model: env.models:Reward
