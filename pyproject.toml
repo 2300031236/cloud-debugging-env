@@ -1,0 +1,13 @@
+[project]
+name = "cloud-debugging-env"
+version = "0.1.0"
+description = "Cloud system debugging OpenEnv environment"
+authors = [{name="Mohit"}]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic"
+]
+
+[tool.openenv]
+entry_point = "env.environment:CloudEnv"
