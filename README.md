@@ -1,10 +1,12 @@
-----
+---
 title: Cloud Thunder Ml
 emoji: 💻
 colorFrom: indigo
 colorTo: red
 sdk: docker
+app_file: app.py
 pinned: false
+---
 
 # Cloud System Debugging Environment (OpenEnv)
 
