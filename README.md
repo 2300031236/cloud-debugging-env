@@ -1,3 +1,11 @@
+----
+title: Cloud Thunder Ml
+emoji: 💻
+colorFrom: indigo
+colorTo: red
+sdk: docker
+pinned: false
+
 # Cloud System Debugging Environment (OpenEnv)
 
 ## 🚀 Overview
@@ -43,13 +51,4 @@ The agent runs multiple episodes and calculates:
 - individual scores
 - average performance
 
-Example:Scores: [1.0, 1.0, 1.0]
-Average: 1.0
-
-## 📦 Deployment
-- FastAPI backend
-- Docker containerized
-- Compatible with Hugging Face Spaces
-
-## 💡 Key Insight
-This project focuses on decision-making rather than execution — simulating how AI agents can reason about system failures in real-world environments.
+Example:
